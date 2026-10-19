@@ -2,7 +2,7 @@ services:
   - type: web
     name: jb-impressao-digital
     runtime: static
-    buildCommand: ''
+    buildCommand: ""
     staticPublishPath: .
     headers:
       - path: /*
